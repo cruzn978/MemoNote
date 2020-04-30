@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FE8CDA245B49DC0016A15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CD9245B49DC0016A15A /* AppDelegate.swift */; };
+		10FE8CDC245B49DC0016A15A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */; };
+		10FE8CDE245B49DC0016A15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CDD245B49DC0016A15A /* ViewController.swift */; };
+		10FE8CE1245B49DC0016A15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FE8CDF245B49DC0016A15A /* Main.storyboard */; };
+		10FE8CE3245B49E20016A15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FE8CE2245B49E20016A15A /* Assets.xcassets */; };
+		10FE8CE6245B49E20016A15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FE8CE4245B49E20016A15A /* LaunchScreen.storyboard */; };
+		10FE8CF1245B49E30016A15A /* Mobile_Voice_Memo_OrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CF0245B49E30016A15A /* Mobile_Voice_Memo_OrganizerTests.swift */; };
+		10FE8CFC245B49E30016A15A /* Mobile_Voice_Memo_OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CFB245B49E30016A15A /* Mobile_Voice_Memo_OrganizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10FE8CED245B49E20016A15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FE8CCE245B49DC0016A15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FE8CD5245B49DC0016A15A;
+			remoteInfo = "Mobile Voice Memo Organizer";
+		};
+		10FE8CF8245B49E30016A15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FE8CCE245B49DC0016A15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FE8CD5245B49DC0016A15A;
+			remoteInfo = "Mobile Voice Memo Organizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FE8CD6245B49DC0016A15A /* Mobile Voice Memo Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Voice Memo Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE8CD9245B49DC0016A15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10FE8CDD245B49DC0016A15A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10FE8CE0245B49DC0016A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10FE8CE2245B49E20016A15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10FE8CE5245B49E20016A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10FE8CE7245B49E20016A15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FE8CEC245B49E20016A15A /* Mobile Voice Memo OrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Voice Memo OrganizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE8CF0245B49E30016A15A /* Mobile_Voice_Memo_OrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Voice_Memo_OrganizerTests.swift; sourceTree = "<group>"; };
+		10FE8CF2245B49E30016A15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FE8CF7245B49E30016A15A /* Mobile Voice Memo OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Voice Memo OrganizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE8CFB245B49E30016A15A /* Mobile_Voice_Memo_OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Voice_Memo_OrganizerUITests.swift; sourceTree = "<group>"; };
+		10FE8CFD245B49E30016A15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FE8CD3245B49DC0016A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CE9245B49E20016A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CF4245B49E30016A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FE8CCD245B49DC0016A15A = {
+			isa = PBXGroup;
+			children = (
+				10FE8CD8245B49DC0016A15A /* Mobile Voice Memo Organizer */,
+				10FE8CEF245B49E30016A15A /* Mobile Voice Memo OrganizerTests */,
+				10FE8CFA245B49E30016A15A /* Mobile Voice Memo OrganizerUITests */,
+				10FE8CD7245B49DC0016A15A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FE8CD7245B49DC0016A15A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FE8CD6245B49DC0016A15A /* Mobile Voice Memo Organizer.app */,
+				10FE8CEC245B49E20016A15A /* Mobile Voice Memo OrganizerTests.xctest */,
+				10FE8CF7245B49E30016A15A /* Mobile Voice Memo OrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FE8CD8245B49DC0016A15A /* Mobile Voice Memo Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				10FE8CD9245B49DC0016A15A /* AppDelegate.swift */,
+				10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */,
+				10FE8CDD245B49DC0016A15A /* ViewController.swift */,
+				10FE8CDF245B49DC0016A15A /* Main.storyboard */,
+				10FE8CE2245B49E20016A15A /* Assets.xcassets */,
+				10FE8CE4245B49E20016A15A /* LaunchScreen.storyboard */,
+				10FE8CE7245B49E20016A15A /* Info.plist */,
+			);
+			path = "Mobile Voice Memo Organizer";
+			sourceTree = "<group>";
+		};
+		10FE8CEF245B49E30016A15A /* Mobile Voice Memo OrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				10FE8CF0245B49E30016A15A /* Mobile_Voice_Memo_OrganizerTests.swift */,
+				10FE8CF2245B49E30016A15A /* Info.plist */,
+			);
+			path = "Mobile Voice Memo OrganizerTests";
+			sourceTree = "<group>";
+		};
+		10FE8CFA245B49E30016A15A /* Mobile Voice Memo OrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10FE8CFB245B49E30016A15A /* Mobile_Voice_Memo_OrganizerUITests.swift */,
+				10FE8CFD245B49E30016A15A /* Info.plist */,
+			);
+			path = "Mobile Voice Memo OrganizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FE8CD5245B49DC0016A15A /* Mobile Voice Memo Organizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE8D00245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo Organizer" */;
+			buildPhases = (
+				10FE8CD2245B49DC0016A15A /* Sources */,
+				10FE8CD3245B49DC0016A15A /* Frameworks */,
+				10FE8CD4245B49DC0016A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Voice Memo Organizer";
+			productName = "Mobile Voice Memo Organizer";
+			productReference = 10FE8CD6245B49DC0016A15A /* Mobile Voice Memo Organizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10FE8CEB245B49E20016A15A /* Mobile Voice Memo OrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE8D03245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo OrganizerTests" */;
+			buildPhases = (
+				10FE8CE8245B49E20016A15A /* Sources */,
+				10FE8CE9245B49E20016A15A /* Frameworks */,
+				10FE8CEA245B49E20016A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FE8CEE245B49E20016A15A /* PBXTargetDependency */,
+			);
+			name = "Mobile Voice Memo OrganizerTests";
+			productName = "Mobile Voice Memo OrganizerTests";
+			productReference = 10FE8CEC245B49E20016A15A /* Mobile Voice Memo OrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10FE8CF6245B49E30016A15A /* Mobile Voice Memo OrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE8D06245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo OrganizerUITests" */;
+			buildPhases = (
+				10FE8CF3245B49E30016A15A /* Sources */,
+				10FE8CF4245B49E30016A15A /* Frameworks */,
+				10FE8CF5245B49E30016A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FE8CF9245B49E30016A15A /* PBXTargetDependency */,
+			);
+			name = "Mobile Voice Memo OrganizerUITests";
+			productName = "Mobile Voice Memo OrganizerUITests";
+			productReference = 10FE8CF7245B49E30016A15A /* Mobile Voice Memo OrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FE8CCE245B49DC0016A15A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alaska Day";
+				TargetAttributes = {
+					10FE8CD5245B49DC0016A15A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					10FE8CEB245B49E20016A15A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 10FE8CD5245B49DC0016A15A;
+					};
+					10FE8CF6245B49E30016A15A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 10FE8CD5245B49DC0016A15A;
+					};
+				};
+			};
+			buildConfigurationList = 10FE8CD1245B49DC0016A15A /* Build configuration list for PBXProject "Mobile Voice Memo Organizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10FE8CCD245B49DC0016A15A;
+			productRefGroup = 10FE8CD7245B49DC0016A15A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FE8CD5245B49DC0016A15A /* Mobile Voice Memo Organizer */,
+				10FE8CEB245B49E20016A15A /* Mobile Voice Memo OrganizerTests */,
+				10FE8CF6245B49E30016A15A /* Mobile Voice Memo OrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FE8CD4245B49DC0016A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE8CE6245B49E20016A15A /* LaunchScreen.storyboard in Resources */,
+				10FE8CE3245B49E20016A15A /* Assets.xcassets in Resources */,
+				10FE8CE1245B49DC0016A15A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CEA245B49E20016A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CF5245B49E30016A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FE8CD2245B49DC0016A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE8CDE245B49DC0016A15A /* ViewController.swift in Sources */,
+				10FE8CDA245B49DC0016A15A /* AppDelegate.swift in Sources */,
+				10FE8CDC245B49DC0016A15A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CE8245B49E20016A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE8CF1245B49E30016A15A /* Mobile_Voice_Memo_OrganizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE8CF3245B49E30016A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE8CFC245B49E30016A15A /* Mobile_Voice_Memo_OrganizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FE8CEE245B49E20016A15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FE8CD5245B49DC0016A15A /* Mobile Voice Memo Organizer */;
+			targetProxy = 10FE8CED245B49E20016A15A /* PBXContainerItemProxy */;
+		};
+		10FE8CF9245B49E30016A15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FE8CD5245B49DC0016A15A /* Mobile Voice Memo Organizer */;
+			targetProxy = 10FE8CF8245B49E30016A15A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10FE8CDF245B49DC0016A15A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE8CE0245B49DC0016A15A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10FE8CE4245B49E20016A15A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE8CE5245B49E20016A15A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FE8CFE245B49E30016A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10FE8CFF245B49E30016A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10FE8D01245B49E30016A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo Organizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-Organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10FE8D02245B49E30016A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo Organizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-Organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10FE8D04245B49E30016A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo OrganizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-OrganizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Voice Memo Organizer.app/Mobile Voice Memo Organizer";
+			};
+			name = Debug;
+		};
+		10FE8D05245B49E30016A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo OrganizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-OrganizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Voice Memo Organizer.app/Mobile Voice Memo Organizer";
+			};
+			name = Release;
+		};
+		10FE8D07245B49E30016A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo OrganizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-OrganizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile Voice Memo Organizer";
+			};
+			name = Debug;
+		};
+		10FE8D08245B49E30016A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q779VZJGN2;
+				INFOPLIST_FILE = "Mobile Voice Memo OrganizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholeCruzalegui.Mobile-Voice-Memo-OrganizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile Voice Memo Organizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FE8CD1245B49DC0016A15A /* Build configuration list for PBXProject "Mobile Voice Memo Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE8CFE245B49E30016A15A /* Debug */,
+				10FE8CFF245B49E30016A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FE8D00245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE8D01245B49E30016A15A /* Debug */,
+				10FE8D02245B49E30016A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FE8D03245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo OrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE8D04245B49E30016A15A /* Debug */,
+				10FE8D05245B49E30016A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FE8D06245B49E30016A15A /* Build configuration list for PBXNativeTarget "Mobile Voice Memo OrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE8D07245B49E30016A15A /* Debug */,
+				10FE8D08245B49E30016A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FE8CCE245B49DC0016A15A /* Project object */;
+}
