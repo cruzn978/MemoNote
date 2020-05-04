@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107913EA245E51F0006755D7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107913E9245E51F0006755D7 /* TableViewController.swift */; };
+		107913EC245FA4E9006755D7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107913EB245FA4E9006755D7 /* Models.swift */; };
+		107913EE245FEAD8006755D7 /* RecordingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107913ED245FEAD8006755D7 /* RecordingTableViewCell.swift */; };
+		107913F0245FEAF1006755D7 /* FolderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107913EF245FEAF1006755D7 /* FolderTableViewCell.swift */; };
 		10FE8CDA245B49DC0016A15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CD9245B49DC0016A15A /* AppDelegate.swift */; };
 		10FE8CDC245B49DC0016A15A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */; };
 		10FE8CDE245B49DC0016A15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE8CDD245B49DC0016A15A /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107913E9245E51F0006755D7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		107913EB245FA4E9006755D7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		107913ED245FEAD8006755D7 /* RecordingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingTableViewCell.swift; sourceTree = "<group>"; };
+		107913EF245FEAF1006755D7 /* FolderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderTableViewCell.swift; sourceTree = "<group>"; };
 		10FE8CD6245B49DC0016A15A /* Mobile Voice Memo Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Voice Memo Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FE8CD9245B49DC0016A15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 				10FE8CD9245B49DC0016A15A /* AppDelegate.swift */,
 				10FE8CDB245B49DC0016A15A /* SceneDelegate.swift */,
 				10FE8CDD245B49DC0016A15A /* ViewController.swift */,
+				107913EB245FA4E9006755D7 /* Models.swift */,
+				107913ED245FEAD8006755D7 /* RecordingTableViewCell.swift */,
+				107913EF245FEAF1006755D7 /* FolderTableViewCell.swift */,
+				107913E9245E51F0006755D7 /* TableViewController.swift */,
 				10FE8CDF245B49DC0016A15A /* Main.storyboard */,
 				10FE8CE2245B49E20016A15A /* Assets.xcassets */,
 				10FE8CE4245B49E20016A15A /* LaunchScreen.storyboard */,
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				10FE8CDE245B49DC0016A15A /* ViewController.swift in Sources */,
+				107913EE245FEAD8006755D7 /* RecordingTableViewCell.swift in Sources */,
 				10FE8CDA245B49DC0016A15A /* AppDelegate.swift in Sources */,
 				10FE8CDC245B49DC0016A15A /* SceneDelegate.swift in Sources */,
+				107913EA245E51F0006755D7 /* TableViewController.swift in Sources */,
+				107913F0245FEAF1006755D7 /* FolderTableViewCell.swift in Sources */,
+				107913EC245FA4E9006755D7 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

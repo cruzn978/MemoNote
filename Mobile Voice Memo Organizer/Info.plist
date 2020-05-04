@@ -18,6 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Can I use the microphone?</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>To activate the speech-to-text transcription, we need your permission!</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
